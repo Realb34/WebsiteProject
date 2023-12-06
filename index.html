@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>QuantumTech - Quantum Computer</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+<!-- Header with Navigation Bar -->
+<header class="header">
+    <nav class="navbar">
+        <div class="logo">QuantumTech</div>
+        <ul class="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="#features">Features</a></li>
+            <li><a href="#specs">Specifications</a></li>
+            <li><a href="#gallery">Gallery</a></li>
+            <li class="dropdown">
+                <a href="javascript:void(0)" class="dropbtn">More</a>
+                <div class="dropdown-content">
+                    <a href="blog.html">Blog</a>
+                    <a href="support.html">Support</a>
+                </div>
+            </li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+</header>
+
+<!-- Hero Section -->
+<section id="overview" class="hero-section">
+    <div class="hero-content">
+        <h1>The Quant Comp Pro</h1>
+        <p>Experience the future of computers with unparalleled power and speed.</p>
+        <a href="#features" class="hero-btn">Discover More</a>
+    </div>
+</section>
+
+<!-- Features Section 1 - Large Images with Description -->
+<section id="features" class="features-section">
+    <h2>So fast, it might predict the future</h2>
+    <div class="features-grid">
+        <!-- Feature Item 1 -->
+        <div class="feature-item">
+            <img src="images/Quant%20Comp%20Concept.jpeg" alt="Feature 1">
+        </div>
+        <!-- Feature Item 2 -->
+        <div class="feature-item-two">
+            <img src="images/Quant%20Comp%20Space%20Black.png" alt="Feature 2">
+        </div>
+    </div>
+    <div class="featuredesc">
+        <h3>Our Quant Comp Pro© with 50 qubits can process 2^50 different processes simultaneously. That's 1,125,899,906,842,624 possibilities all at once... A classical computer with 50 bits can only process 1 at a time.</h3>
+    </div>
+</section>
+
+<!-- Features Section 2 - Small Images with Individual Descriptions -->
+<section id="features-small" class="features-section">
+    <div class="features-grid-small">
+        <!-- Small Feature Item 1 -->
+        <div class="feature-item-small">
+            <img src="images/misc.svg" alt="Feature 3">
+            <div class="feature-text-small">Multi Functional Processing</div>
+        </div>
+        <!-- Small Feature Item 2 -->
+        <div class="feature-item-small">
+            <img src="images/misc%202.svg" alt="Feature 4">
+            <div class="feature-text-small">Sponsered by Apple Technology</div>
+        </div>
+        <!-- Small Feature Item 3 -->
+        <div class="feature-item-small">
+            <img src="images/misc3.svg" alt="Feature 5">
+            <div class="feature-text-small">43 Quantum Performance Threads</div>
+        </div>
+        <!-- Small Feature Item 4 -->
+        <div class="feature-item-small">
+            <img src="images/misc4.svg" alt="Feature 6">
+            <div class="feature-text-small">15km Connection Capabilities</div>
+        </div>
+    </div>
+</section>
+
+<!-- Specifications Section -->
+<section id="specs" class="specs-section">
+    <h2>Technical Specifications</h2>
+    <div class="specs-table">
+        <table>
+            <tr>
+                <th>Specification</th>
+                <th>Feature</th>
+                <th>Details</th>
+            </tr>
+            <tr>
+                <td>Processor Type</td>
+                <td>Ryzen 7900X3D</td>
+                <td>High-Performance Quantum Processor</td>
+            </tr>
+            <tr>
+                <td>Memory Capacity</td>
+                <td>50 Qubits</td>
+                <td>Quantum Computing Power</td>
+            </tr>
+            <tr>
+                <td>Connectivity</td>
+                <td>Quantum Entanglement Interface</td>
+                <td>Ultra-Fast Data Transfer</td>
+            </tr>
+            <tr>
+                <td>Possibilities</td>
+                <td>Endless</td>
+                <td>Unparalleled Computational Capabilities</td>
+            </tr>
+            <tr>
+                <td>Battery Life</td>
+                <td>Extended</td>
+                <td>Up to 40 hours of continuous portable use</td>
+            </tr>
+        </table>
+    </div>
+</section>
+
+<!-- Gallery Section -->
+<section id="gallery" class="gallery-section">
+    <h2>Power and Portability</h2>
+    <div class="gallery-grid">
+        <!-- Gallery Images -->
+        <img src="images/Quant%20Comp%20Use%20Case.jpeg" alt="Quantum Computer Image 1" class="gallery-item">
+        <img src="images/Quant%20Comp%20Use%20Case%20Two.jpeg" alt="Quantum Computer Image 2" class="gallery-item">
+        <img src="images/Quant%20Comp%20To%20Go.jpeg" alt="Quantum Computer Image 3" class="gallery-item">
+        <!-- Additional images can be added here -->
+    </div>
+</section>
+
+<!-- Contact Section -->
+<section id="contact" class="contact-section">
+    <h2>Pre-order Now!</h2>
+    <form>
+        <fieldset>
+            <legend>Enquiry Form</legend>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name"><br><br>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email"><br><br>
+
+            <label>Reason for Contact:</label>
+            <input type="radio" id="support" name="reason" value="support">
+            <label for="support">Support</label>
+            <input type="radio" id="sales" name="reason" value="sales">
+            <label for="sales">Sales</label><br><br>
+
+            <label for="product">Product Interest:</label>
+            <select id="product" name="product">
+                <option value="quantum_computer">Quantum Computer</option>
+                <option value="software">Software Liscense</option>
+                <option value="accessories">Accessories</option>
+            </select><br><br>
+
+            <input type="checkbox" id="subscribe" name="subscribe" value="newsletter">
+            <label for="subscribe">Subscribe for more news</label><br><br>
+
+            <input type="Reset" value="Confirm (Reset Button)">
+        </fieldset>
+    </form>
+</section>
+
+
+<!-- Footer -->
+<footer class="footer">
+    <p>For more information or inquiries, please contact me at <a href="mailto:bellin.riley@titans.easternflorida.edu">bellin.riley@titans.easternflorida.edu</a>.</p>
+    <p>&copy; 2023 QuantumTech. All rights reserved. (Not Really)</p>
+</footer>
+
+</body>
+</html>
